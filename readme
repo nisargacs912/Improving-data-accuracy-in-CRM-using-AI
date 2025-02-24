@@ -1,0 +1,12 @@
+Requirement:
+Install dependencies before running the script:
+pip install pandas fuzzywuzzy scikit-learn request.
+Usage
+Load Data: Reads crm_data.csv.
+Clean & Standardize: Formats names, emails, and phone numbers.
+Detect Duplicates: Uses fuzzy matching to find similar names.
+Anomaly Detection: Applies Isolation Forest for phone validation.
+Enrich Data: Fetches company details via an API.
+Save Data: Outputs cleaned_crm_data.csv.
+
+The processed data is saved in cleaned_crm_data.csv with error handling for file operations and API requests
