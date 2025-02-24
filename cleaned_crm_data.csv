@@ -1,0 +1,5 @@
+Customer Name	,Email,	Phone,	Potential Duplicate	Anomaly, Score,	Valid Entry	Company
+John Doe	,john.doe@example.com,	1234567890,	Jon Doe,	1,	Valid	Example Corp
+Jane Smith,	jane_smith@xyz.com,	9876543210,	None,	1,	Valid	XYZ Inc.
+Jon Doe,	jondoe@example.com,	1234567890,	John Doe,	1,	Valid	Example Corp
+Michael Lee	,mike_lee@abc.com,	5551234567,	None,	-1,	Invalid	ABC Ltd.
